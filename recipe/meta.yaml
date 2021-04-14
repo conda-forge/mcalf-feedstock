@@ -48,7 +48,7 @@ test:
     - mcalf.visualisation
   commands:
     - pip check
-    - pytest --pyargs mcalf
+    - python -c 'import platform;exit(0 if platform.python_implementation() == "PyPy" else 1)' || pytest --pyargs mcalf
   requires:
     - pip
     - pytest
