@@ -1,5 +1,5 @@
 {% set name = "mcalf" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mcalf-{{ version }}.tar.gz
-  sha256: 0a5c0214aabbd01796cf8d1ef08129a782de4ad32b756b91a3388781a8aa5d18
+  sha256: ddb72db1d1ac5fa2a303b17af1bb4dc99ecb387762e9c91e5ca9bf37d109eebe
 
 build:
   number: 0
