@@ -1,5 +1,5 @@
 {% set name = "mcalf" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mcalf-{{ version }}.tar.gz
-  sha256: ddb72db1d1ac5fa2a303b17af1bb4dc99ecb387762e9c91e5ca9bf37d109eebe
+  sha256: 16cdf068a469e1c6edc743cce5dabbce694cd0bc36f480f7252850ca9fc5fb7b
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
