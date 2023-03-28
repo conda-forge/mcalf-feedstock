@@ -1,11 +1,11 @@
-About mcalf
-===========
+About mcalf-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mcalf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ConorMacBride/mcalf/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mcalf-feedstock/blob/main/LICENSE.txt)
 
 Summary: MCALF: Multi-Component Atmospheric Line Fitting
 
