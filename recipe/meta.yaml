@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mcalf-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mcalf-{{ version }}.tar.gz
   sha256: b33d53f1e87f458c4ab6015d8da7a4531daba8c2f995a725cbab13709dc6d773
 
 build:
@@ -18,9 +18,11 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - python
+    - setuptools
     - setuptools_scm
   run:
     - astropy-base >=4.2
